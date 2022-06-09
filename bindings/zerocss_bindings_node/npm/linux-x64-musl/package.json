@@ -1,0 +1,21 @@
+{
+  "name": "@zeroweb/zerocss_bindings_node-linux-x64-musl",
+  "version": "0.0.0",
+  "os": [
+    "linux"
+  ],
+  "cpu": [
+    "x64"
+  ],
+  "main": "zerocss_bindings_node.linux-x64-musl.node",
+  "files": [
+    "zerocss_bindings_node.linux-x64-musl.node"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">= 10"
+  },
+  "libc": [
+    "musl"
+  ]
+}
