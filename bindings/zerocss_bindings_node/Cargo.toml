@@ -15,5 +15,5 @@ zerocss_core = { path = "../../crates/zerocss_core" }
 [build-dependencies]
 napi-build = "2.0.0"
 
-[profile.release]
-lto = true
+# [profile.release]
+# lto = true

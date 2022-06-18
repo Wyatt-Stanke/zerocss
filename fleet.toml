@@ -1,0 +1,5 @@
+rd_enabled = true
+fleet_id = "c01e9082-a94c-41c7-a544-9a552b75ec9b"
+
+[build]
+sccache = "/Users/wyattstanke/.cargo/bin/sccache"
