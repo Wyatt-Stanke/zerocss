@@ -1,5 +1,4 @@
 tasks:
-  - init: curl -L get.fleet.rs | sh
-    command: rm -rf installer.bin
-  - init: fleet build
+  - before: curl -L get.fleet.rs | sh
+    init: fleet build
     command: cargo watch -x test
